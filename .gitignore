@@ -81,3 +81,49 @@ lint/tmp/
 
 # OSX
 .DS_Store
+
+
+# Archivos temporales del sistema
+*~
+*.swp
+*.swo
+
+# Más archivos de IntelliJ/Android Studio
+.idea/
+*.iws
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+
+# Archivos de configuración local
+google-services.json
+
+# Archivos de release/signing
+/release/
+*.jks
+*.keystore
+keystore.properties
+
+# Archivos de backup
+*.orig
+*.rej
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Archivos de test/debug
+/src/debug/
+test-results/
+screenshots/
+
+
+# Archivos de configuración personal
+.vscode/
+*.code-workspace
